@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Cafecat: um encontro entre café, carinho e a paixão pelos gatos. Conheça nossos sabores e explore o universo felino."
+    />
+    <meta name="theme-color" content="#4b301e" />
+    <title>Cafecat | Café, carinho e boas histórias</title>
+    <link rel="icon" href="Logocafecat.png" />
+    <link rel="stylesheet" href="home.css" />
+    <script src="site.js" defer></script>
+    <script src="home.js" defer></script>
+    <script src="carousel.js" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#principal">Pular para o conteúdo</a>
+    <div class="announcement">
+      Um café quentinho. Uma companhia especial.
+      <span>Bem-vindo ao Cafecat.</span>
+    </div>
+    <header class="header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html" aria-label="Cafecat — início"
+          ><img src="Logocafecat.png" alt="Logo Cafecat" /><span
+            >cafecat<small>CAFÉ & CARINHO</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
+          ☰
+        </button>
+        <nav id="navigation" aria-label="Menu principal">
+          <a href="index.html" class="active" aria-current="page">Início</a
+          ><a href="cardapio.html">Cardápio</a><a href="adoção.html">Adoção</a
+          ><a href="blog.html">Blog</a> <a href="revista.html">Revista do TCM</a
+          ><a href="sobrenos.html">Sobre nós</a
+          ><a href="contato.html">Contato</a>
+        </nav>
+        <a class="account" href="formulario2.html"
+          >Minha conta <span aria-hidden="true">↗</span></a
+        >
+      </div>
+    </header>
+    <main id="principal">
+      <section class="wrap home-opening">
+        <p class="eyebrow">PROJETO DE CONCLUSÃO DO CURSO TÉCNICO · 2024</p>
+        <h1>Café, carinho e boas histórias.</h1>
+        <p>
+          Conheça o Cafecat: nossa proposta de cafeteria temática, apresentada
+          no TCM de 2024.
+        </p>
+      </section>
+      <section
+        id="hero-carousel"
+        class="wrap image-carousel"
+        aria-label="Carrossel de imagens do Cafecat"
+        aria-roledescription="carrossel"
+      >
+        <div class="carousel-heading">
+          <h2>Conheça o nosso universo</h2>
+          <div class="carousel-arrows">
+            <button
+              id="slide-prev"
+              type="button"
+              aria-label="Imagem anterior"
+              aria-controls="carousel-track"
+            >
+              ←</button
+            ><button
+              id="slide-next"
+              type="button"
+              aria-label="Próxima imagem"
+              aria-controls="carousel-track"
+            >
+              →
+            </button>
+          </div>
+        </div>
+        <div
+          id="carousel-track"
+          class="carousel-track"
+          tabindex="0"
+          aria-label="Imagens do Cafecat. Use as setas do teclado ou deslize para navegar."
+        >
+          <article
+            class="image-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="1 de 5"
+          >
+            <img
+              src="baner cafecat.jpg"
+              alt="Banner original Cafecat: seu café, seu momento, seu lugar"
+              fetchpriority="high"
+            /><button
+              type="button"
+              class="image-expand"
+              aria-label="Ampliar imagem do carrossel"
+            >
+              ⤢ Ampliar
+            </button>
+            <div class="slide-caption">
+              <p>O CAFECAT DE 2024</p>
+              <h3>Seu café. Seu momento. Seu lugar.</h3>
+              <a href="Historia.html">Conheça o projeto ↗</a>
+            </div>
+          </article>
+          <article
+            class="image-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="2 de 5"
+          >
+            <img
+              src="Gato cafecat.jpeg"
+              alt="Ilustração de um gato junto a uma xícara ao pôr do sol"
+              loading="lazy"
+            /><button
+              type="button"
+              class="image-expand"
+              aria-label="Ampliar imagem do carrossel"
+            >
+              ⤢ Ampliar
+            </button>
+            <div class="slide-caption">
+              <p>NOSSO UNIVERSO</p>
+              <h3>Café e carinho na mesma história.</h3>
+              <a href="adoção.html">Explore a adoção ↗</a>
+            </div>
+          </article>
+          <article
+            class="image-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="3 de 5"
+          >
+            <img
+              src="cafe1.jpg"
+              alt="Preparo de café com leite"
+              loading="lazy"
+            /><button
+              type="button"
+              class="image-expand"
+              aria-label="Ampliar imagem do carrossel"
+            >
+              ⤢ Ampliar
+            </button>
+            <div class="slide-caption">
+              <p>NOSSOS SABORES</p>
+              <h3>Uma boa pausa começa por aqui.</h3>
+              <a href="cardapio.html">Ver cardápio ↗</a>
+            </div>
+          </article>
+          <article
+            class="image-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="4 de 5"
+          >
+            <img
+              src="Designer (4).jpeg"
+              alt="Ilustração de um doce felino ao lado de um café"
+              loading="lazy"
+            /><button
+              type="button"
+              class="image-expand"
+              aria-label="Ampliar imagem do carrossel"
+            >
+              ⤢ Ampliar
+            </button>
+            <div class="slide-caption">
+              <p>IDENTIDADE CAFECAT</p>
+              <h3>Pequenos detalhes, muito afeto.</h3>
+              <a href="Presentes.html">Conhecer presentes ↗</a>
+            </div>
+          </article>
+          <article
+            class="image-slide"
+            role="group"
+            aria-roledescription="slide"
+            aria-label="5 de 5"
+          >
+            <img
+              src="Designer (6).jpeg"
+              alt="Ilustração de um doce temático com aparência de gato"
+              loading="lazy"
+            /><button
+              type="button"
+              class="image-expand"
+              aria-label="Ampliar imagem do carrossel"
+            >
+              ⤢ Ampliar
+            </button>
+            <div class="slide-caption">
+              <p>CRIATIVIDADE & DESIGN</p>
+              <h3>Uma marca que também conta histórias.</h3>
+              <a href="revista.html">Conhecer a revista ↗</a>
+            </div>
+          </article>
+        </div>
+        <div class="carousel-timer" aria-hidden="true">
+          <span id="carousel-progress"></span>
+        </div>
+        <div class="carousel-controls">
+          <div class="carousel-dots" role="group" aria-label="Escolher imagem">
+            <button
+              type="button"
+              data-slide="0"
+              aria-label="Mostrar imagem 1"
+              aria-current="true"
+            ></button
+            ><button
+              type="button"
+              data-slide="1"
+              aria-label="Mostrar imagem 2"
+            ></button
+            ><button
+              type="button"
+              data-slide="2"
+              aria-label="Mostrar imagem 3"
+            ></button
+            ><button
+              type="button"
+              data-slide="3"
+              aria-label="Mostrar imagem 4"
+            ></button
+            ><button
+              type="button"
+              data-slide="4"
+              aria-label="Mostrar imagem 5"
+            ></button>
+          </div>
+          <span class="autoplay-label" id="autoplay-status"
+            >Automático · 4 segundos</span
+          ><span id="slide-counter">01 / 05</span
+          ><button
+            id="slide-pause"
+            type="button"
+            aria-label="Pausar troca automática"
+            aria-pressed="false"
+          >
+            Pausar
+          </button>
+        </div>
+        <p
+          id="slide-status"
+          class="sr-only"
+          aria-live="polite"
+          aria-atomic="true"
+        ></p>
+      </section>
+      <nav
+        class="original-sections wrap"
+        aria-label="Áreas do projeto original"
+      >
+        <a href="cafe.html">Cafés</a><a href="Donunt.html">Donuts</a
+        ><a href="cha.html">Chás</a><a href="Bolo.html">Bolos</a
+        ><a href="promoção.html">Promoções</a><a href="adoção.html">Adoção</a
+        ><a href="Historia.html">História</a
+        ><a href="Bem-estar.html">Bem-estar</a
+        ><a href="Presentes.html">Presentes</a>
+      </nav>
+      <div class="values">
+        <div class="wrap">
+          <span>✦ Pausa para um café</span><span>♡ Amor pelos gatos</span
+          ><span>✧ Sabores para descobrir</span
+          ><span>↗ Histórias para compartilhar</span>
+        </div>
+      </div>
+      <section id="sabores" class="section wrap">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">ESCOLHA SUA PRÓXIMA PAUSA</p>
+            <h2>Um sabor para cada momento.</h2>
+          </div>
+          <p>
+            Do primeiro gole ao último pedacinho.<br />Encontre seu próximo
+            favorito. <a href="cardapio.html">Ver cardápio completo ↗</a>
+          </p>
+        </div>
+        <div class="browse">
+          <form id="search-form" role="search">
+            <label class="sr-only" for="search">Buscar sabores</label
+            ><span aria-hidden="true">⌕</span
+            ><input
+              id="search"
+              type="search"
+              placeholder="Busque por café, chá, bolo…"
+              autocomplete="off"
+            /><button type="submit">Buscar</button>
+          </form>
+          <div class="filters" role="group" aria-label="Filtrar sabores">
+            <button class="selected" data-filter="all" aria-pressed="true">
+              Todos</button
+            ><button data-filter="bebidas" aria-pressed="false">Bebidas</button
+            ><button data-filter="doces" aria-pressed="false">Doces</button
+            ><button data-filter="favorites" aria-pressed="false">
+              Favoritos <span id="favorite-count">0</span>
+            </button>
+          </div>
+        </div>
+        <p
+          id="search-status"
+          class="sr-only"
+          role="status"
+          aria-live="polite"
+        ></p>
+        <div class="cards">
+          <article
+            class="card"
+            data-category="bebidas"
+            data-search="café cafés espresso cappuccino bebida"
+            data-id="cafe"
+          >
+            <div class="card-image">
+              <img
+                src="cafe1.jpg"
+                alt="Café com leite sendo preparado em uma xícara"
+                loading="lazy"
+              /><span class="tag">UMA PAUSA CLÁSSICA</span
+              ><button
+                class="favorite"
+                aria-label="Favoritar Cafés"
+                aria-pressed="false"
+              >
+                ♡
+              </button>
+            </div>
+            <div class="card-body">
+              <span class="category">CAFÉS</span>
+              <h3>Um bom dia em cada gole.</h3>
+              <p>Descubra a seleção de cafés do Cafecat.</p>
+              <a href="cafe.html"
+                >Conhecer cafés <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </article>
+          <article
+            class="card"
+            data-category="doces"
+            data-search="donut donuts donunt doce"
+            data-id="donut"
+          >
+            <div class="card-image">
+              <img
+                src="Designer (3).jpeg"
+                alt="Ilustração de café e doce em formato de gato"
+                loading="lazy"
+              /><span class="tag">DOÇURA & AFETO</span
+              ><button
+                class="favorite"
+                aria-label="Favoritar Donuts"
+                aria-pressed="false"
+              >
+                ♡
+              </button>
+            </div>
+            <div class="card-body">
+              <span class="category">DONUTS</span>
+              <h3>Seu momento mais doce.</h3>
+              <p>Uma companhia deliciosa para seu café.</p>
+              <a href="Donunt.html"
+                >Explorar donuts <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </article>
+          <article
+            class="card"
+            data-category="doces"
+            data-search="bolo bolos doce sobremesa"
+            data-id="bolo"
+          >
+            <div class="card-image">
+              <img
+                src="Designer (4).jpeg"
+                alt="Ilustração de um doce em formato de gatinho ao lado de um café"
+                loading="lazy"
+              /><span class="tag">UM PEDACINHO DE ALEGRIA</span
+              ><button
+                class="favorite"
+                aria-label="Favoritar Bolos"
+                aria-pressed="false"
+              >
+                ♡
+              </button>
+            </div>
+            <div class="card-body">
+              <span class="category">BOLOS</span>
+              <h3>Carinho em cada pedaço.</h3>
+              <p>Conheça o lado mais doce do nosso universo.</p>
+              <a href="Bolo.html"
+                >Descobrir bolos <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </article>
+          <article
+            class="card"
+            data-category="bebidas"
+            data-search="chá chás cha chas bebida infusão"
+            data-id="cha"
+          >
+            <div class="card-image">
+              <img
+                src="Designer (7).jpeg"
+                alt="Ilustração de xícaras com decoração felina"
+                loading="lazy"
+              /><span class="tag">DESACELERE UM POUCO</span
+              ><button
+                class="favorite"
+                aria-label="Favoritar Chás"
+                aria-pressed="false"
+              >
+                ♡
+              </button>
+            </div>
+            <div class="card-body">
+              <span class="category">CHÁS</span>
+              <h3>Calma que cabe na xícara.</h3>
+              <p>Explore a seleção de chás do Cafecat.</p>
+              <a href="cha.html"
+                >Conhecer chás <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </article>
+        </div>
+        <div id="empty" hidden>
+          <h3>Nenhum sabor encontrado.</h3>
+          <p>Tente outra palavra ou escolha outra categoria.</p>
+          <button class="button" id="reset-search">Mostrar todos</button>
+        </div>
+      </section>
+      <section class="story wrap" id="universo">
+        <div class="story-photo">
+          <img
+            src="pexels-cottonbro-3205736.jpg"
+            alt="Letreiro luminoso em formato de xícara de café"
+            loading="lazy"
+          />
+        </div>
+        <div class="story-copy">
+          <p class="eyebrow">MUITO ALÉM DA XÍCARA</p>
+          <h2>Café aproxima.<br />Carinho transforma.</h2>
+          <p>
+            O Cafecat une duas paixões: café e gatos. Explore nossa história e
+            conheça conteúdos sobre adoção e bem-estar felino.
+          </p>
+          <a class="button light" href="adoção.html"
+            >Conheça a área de adoção ↗</a
+          ><a class="story-link" href="Bem-estar.html"
+            >Explore o bem-estar felino →</a
+          >
+        </div>
+      </section>
+      <section class="section wrap discover">
+        <div>
+          <p class="eyebrow">CONTINUE A EXPLORAR</p>
+          <h2>Mais Cafecat para você.</h2>
+        </div>
+        <a href="promoção.html"
+          ><span>01 / NOVIDADES</span>
+          <h3>Promoções <b>↗</b></h3>
+          <p>Confira a página de ofertas do projeto.</p></a
+        ><a href="Presentes.html"
+          ><span>02 / PARA COMPARTILHAR</span>
+          <h3>Presentes <b>↗</b></h3>
+          <p>Um toque de carinho para alguém especial.</p></a
+        >
+      </section>
+      <section class="wrap quick-links" aria-label="Mais páginas">
+        <a href="blog.html">Diário Cafecat ↗</a
+        ><a href="localizacao.html">Localização ↗</a
+        ><a href="contato.html">Contato ↗</a
+        ><a href="mapa.html">Mapa do site ↗</a>
+      </section>
+      <section class="wrap magazine-callout">
+        <div>
+          <p class="eyebrow">IDENTIDADE VISUAL · ILLUSTRATOR</p>
+          <h2>A revista do nosso TCM.</h2>
+          <p>
+            Conheça a revista Cafecat original, criada no Illustrator para o TCM
+            de 2024.
+          </p>
+        </div>
+        <a class="button" href="revista.html">Abrir a revista ↗</a>
+      </section>
+      <section class="faq wrap">
+        <p class="eyebrow">PARA CONHECER MELHOR</p>
+        <h2>Antes do próximo café…</h2>
+        <details>
+          <summary>Onde encontro os sabores do Cafecat?</summary>
+          <p>
+            Explore os cards de cafés, donuts, bolos e chás. A busca e os
+            filtros ajudam a encontrar cada categoria.
+          </p>
+        </details>
+        <details>
+          <summary>Como salvo meus favoritos?</summary>
+          <p>
+            Toque no coração de uma categoria. Suas escolhas ficam salvas neste
+            navegador, quando o armazenamento local está disponível.
+          </p>
+        </details>
+        <details>
+          <summary>Onde posso saber mais sobre adoção?</summary>
+          <p>
+            Acesse a <a href="adoção.html">página de adoção</a> e conheça também
+            os conteúdos de <a href="Bem-estar.html">bem-estar felino</a>.
+          </p>
+        </details>
+      </section>
+    </main>
+    <footer>
+      <div class="wrap footer-grid">
+        <div>
+          <a class="brand footer-brand" href="index.html"
+            ><img src="Logocafecat.png" alt="Logo Cafecat" /><span
+              >cafecat<small>CAFÉ & CARINHO</small></span
+            ></a
+          >
+          <p>Seu café, seu momento, seu lugar.</p>
+          <small>Projeto acadêmico · TCM 2024</small>
+        </div>
+        <div>
+          <h3>Sabores</h3>
+          <a href="cardapio.html">Cardápio completo</a
+          ><a href="cafe.html">Cafés</a><a href="Donunt.html">Donuts</a
+          ><a href="Bolo.html">Bolos</a><a href="cha.html">Chás</a>
+        </div>
+        <div>
+          <h3>Universo Cafecat</h3>
+          <a href="Historia.html">História</a><a href="adoção.html">Adoção</a
+          ><a href="Bem-estar.html">Bem-estar</a
+          ><a href="sobrenos.html">Sobre nós</a><a href="blog.html">Blog</a>
+          <a href="revista.html">Revista do TCM</a>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a href="promoção.html">Promoções</a
+          ><a href="Presentes.html">Presentes</a
+          ><a href="localizacao.html">Localização</a
+          ><a href="contato.html">Contato</a
+          ><a href="formulario2.html">Minha conta</a
+          ><a href="cadastro.html">Cadastro</a>
+        </div>
+        <div>
+          <h3>Informações</h3>
+          <a href="Politica.html">Privacidade</a
+          ><a href="Termo.html">Termos de uso</a
+          ><a href="mapa.html">Mapa do site</a>
+        </div>
+      </div>
+      <div class="wrap footer-bottom">
+        <span>© <span id="year">2024</span> Cafecat · TCM 2024.</span
+        ><a href="#principal">Voltar ao início ↑</a>
+      </div>
+    </footer>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <dialog id="image-dialog" aria-labelledby="image-dialog-title">
+      <div class="image-dialog-toolbar">
+        <h2 id="image-dialog-title">Imagem Cafecat</h2>
+        <label for="image-zoom">Zoom</label
+        ><select id="image-zoom">
+          <option value="100">100%</option>
+          <option value="150">150%</option>
+          <option value="200">200%</option></select
+        ><button
+          id="image-close"
+          type="button"
+          aria-label="Fechar imagem ampliada"
+        >
+          Fechar ×
+        </button>
+      </div>
+      <div class="image-dialog-canvas"><img id="expanded-image" alt="" /></div>
+    </dialog>
+  </body>
+</html>
