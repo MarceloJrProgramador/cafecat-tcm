@@ -1,11 +1,8 @@
-# cafecat-tcm
-Website de cafeteria temática desenvolvido para meu TCM de 2024 com HTML, CSS e JavaScript.
-
 ☕🐈 Cafecat — TCM 2024
 
 Website de uma cafeteria temática que combina café e o universo dos gatos, desenvolvido para o TCM do meu curso técnico em 2024 e aprimorado posteriormente.
 
-Tecnologias utilizadas
+☕🐈Tecnologias utilizadas
 
 HTML5 para a estrutura das páginas;
 
@@ -13,7 +10,7 @@ CSS para a identidade visual e o layout responsivo;
 
 JavaScript para as interações.
 
-Funcionalidades
+☕🐈Funcionalidades
 
 Carrossel automático com indicadores e controle de reprodução;
 
@@ -29,7 +26,7 @@ Páginas de cardápio, história, adoção e bem-estar felino;
 
 Download da revista original produzida no Adobe Illustrator.
 
-Como executar
+☕🐈Como executar
 
 Baixe o projeto, extraia os arquivos e abra index.html no navegador. Mantenha os arquivos e as pastas juntos para preservar os links.
 
