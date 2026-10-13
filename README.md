@@ -30,7 +30,7 @@ Download da revista original produzida no Adobe Illustrator.
 
 Baixe o projeto, extraia os arquivos e abra index.html no navegador. Mantenha os arquivos e as pastas juntos para preservar os links.
 
-Sobre o projeto
+☕🐈Sobre o projeto
 
 O Cafecat integra desenvolvimento front-end, identidade visual e experiência do usuário.
 
